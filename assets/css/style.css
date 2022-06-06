@@ -3,6 +3,7 @@
     --secondary-color: #14274E;
     --tertiary-color: #394867;
     --quaternary-color: #9BA4B4;
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -15,3 +16,51 @@ body {
     color: var(--secondary-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Header-Nav Styles Start */
+header {
+    padding: 15px 25px;
+    background-color: var(--quaternary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 30;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: var(--shadow);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 5px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: var(--shadow);
+}
+
+
+/* Header-Nav Styles End */
