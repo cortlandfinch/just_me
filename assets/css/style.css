@@ -106,10 +106,11 @@ header nav ul li a:hover {
     font-size: 20px;
     color: var(--secondary-color);
     border-bottom: 3px solid;
-    padding-bottom: 20px;
+    padding-top: 45px;
+    padding-bottom: 25px;
     text-align: center;
-    margin: 25px auto 35px auto;
-    width: 10%;
+    margin: 35px auto 35px auto;
+    width: 8%;
 }
 /* Section Styles End */
 
@@ -160,3 +161,7 @@ header nav ul li a:hover {
 }
 /* About Me Animals Styles End */
 /* About Me Styles End */
+
+/* Professional Styles Start */
+
+/* Professional Styles End */
