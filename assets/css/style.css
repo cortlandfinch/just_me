@@ -125,7 +125,7 @@ header nav ul li a:hover {
 
 /* About Me Animals Styles Start */
 .pets {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -198,7 +198,7 @@ header nav ul li a:hover {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 12px 0px;
     color: var(--secondary-color);
     flex: 1;
-    opacity: 0.85;
+    opacity: 0.75;
     transition: all 0.3s ease 0s;
 }
 
@@ -223,7 +223,7 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     flex: 1;
     text-align: center;
-    opacity: .85;
+    opacity: .75;
     transition: all 0.3s ease 0s;
 }
 
@@ -258,6 +258,32 @@ header nav ul li a:hover {
     margin: 0 auto;
     padding: 20px 20px;
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.list ul li a {
+    display: inline-block;
+    position: relative;
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.list ul li a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--secondary-color);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+.list ul li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 /* Contact Styles End */
