@@ -102,6 +102,13 @@ header nav ul li a:hover {
     display: flex;
 }
 
+.flex-row-text {
+    font-size: 15px;
+    padding: 30px auto;
+    text-align: center;
+    margin: 25px auto 35px auto;
+}
+
 .section-title {
     font-size: 20px;
     color: var(--secondary-color);
@@ -115,12 +122,6 @@ header nav ul li a:hover {
 /* Section Styles End */
 
 /* About Me Styles Start */
-.about-me-text {
-    font-size: 15px;
-    padding: 30px auto;
-    text-align: center;
-    margin: 25px auto 35px auto;
-}
 
 /* About Me Animals Styles Start */
 .pets {
@@ -138,6 +139,14 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     flex: 1;
     text-align: center;
+    opacity: .95;
+    transition: all 0.3s ease 0s;
+}
+
+.pet:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
 }
 
 .pet img {
@@ -162,6 +171,69 @@ header nav ul li a:hover {
 /* About Me Animals Styles End */
 /* About Me Styles End */
 
-/* Professional Styles Start */
+/* Work Styles Start */
+.projects {
+    background-image: url("./images/me-bottom-of-mountain.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
 
-/* Professional Styles End */
+.row-1 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column img {
+    margin: 80px auto 0;
+    width: 1265px;
+    height: 650px;
+    background:hsla(0, 0%, 100%, 0);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 12px 0px;
+    color: var(--secondary-color);
+    flex: 1;
+    text-align: center;
+    opacity: 0.85;
+    transition: all 0.3s ease 0s;
+}
+
+.column img:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgb(25, 25, 25);
+}
+
+.row-2 {
+    width: 100%;
+    margin: 20px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column-2 img {
+    margin: 20px auto 50px;
+    width: 625px;
+    height: 335px;
+    background:hsla(0, 0%, 100%, 0);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 12px 0px;
+    color: var(--secondary-color);
+    flex: 1;
+    text-align: center;
+    opacity: 0.85;
+    transition: all 0.3s ease 0s;
+}
+
+.column-2 img:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgb(25, 25, 25);
+}
+/* Work Styles End */
