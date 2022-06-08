@@ -238,3 +238,26 @@ header nav ul li a:hover {
     overflow: auto;
 }
 /* Work Styles End */
+
+/* Contact Styles Start */
+.list {
+    display: table;
+    margin: 20px auto 50px;
+}
+
+.list ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list ul li {
+    display: inline;
+    margin: 0 auto;
+    padding: 20px 20px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+/* Contact Styles End */
