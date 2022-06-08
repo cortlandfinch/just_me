@@ -125,7 +125,7 @@ header nav ul li a:hover {
 
 /* About Me Animals Styles Start */
 .pets {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -184,22 +184,20 @@ header nav ul li a:hover {
 }
 
 .row-1 {
-    width: 100%;
-    margin: 0 auto;
+    width: 77.6%;
+    margin: 20px auto 0; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .column img {
-    margin: 80px auto 0;
-    width: 1265px;
-    height: 650px;
+    width: 100%;
+    margin: 50px auto 0;
     background:hsla(0, 0%, 100%, 0);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 12px 0px;
     color: var(--secondary-color);
     flex: 1;
-    text-align: center;
     opacity: 0.85;
     transition: all 0.3s ease 0s;
 }
@@ -211,29 +209,32 @@ header nav ul li a:hover {
 }
 
 .row-2 {
-    width: 100%;
-    margin: 20px 200px;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.column-2 img {
-    margin: 20px auto 50px;
-    width: 625px;
-    height: 335px;
-    background:hsla(0, 0%, 100%, 0);
+.column-2 {
+    margin: 40px;
+    background:hsl(0, 0%, 100%);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 12px 0px;
     color: var(--secondary-color);
     flex: 1;
     text-align: center;
-    opacity: 0.85;
+    opacity: .85;
     transition: all 0.3s ease 0s;
 }
 
-.column-2 img:hover {
+.column-2:hover {
     opacity: 1;
     transform: translateY(-5px);
     box-shadow: 0 15px 20px rgb(25, 25, 25);
+}
+
+.column-2 img {
+    width: 100%;
+    overflow: auto;
 }
 /* Work Styles End */
