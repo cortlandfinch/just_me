@@ -103,9 +103,11 @@ header nav ul li a:hover {
 }
 
 .flex-row-text {
+    width: 60%;
     font-size: 15px;
     padding: 30px auto;
     text-align: center;
+    text-justify: inter-word;
     margin: 25px auto 35px auto;
 }
 
